@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+//VARIABLES
+@import './utilidades/colores';
+
+//IMPORTACIONES
+@import './header-footer/header';
+@import './secciones/nosotros';
+
+body{
+    font-family: 'Staatliches', cursive !important;
+}
+
+h1{
+    color: #fff;
+}
+
+span{
+    color: $rojo-pastel;
+    font-size: 80px;
+}
+
+p{
+    color: #fff;
+    padding: 10px 0;
+}
+
+.hero{
+    background-image: url(../img/nosotros1.jfif);
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+}
+
+
+
+
+
