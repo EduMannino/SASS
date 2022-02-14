@@ -128,6 +128,15 @@ section {
     section .card .content a {
       color: #5171A5; }
 
+section {
+  margin-top: 100px; }
+  section .color {
+    color: #3185FC; }
+  section .btn-primary {
+    background-color: #E84855;
+    border-color: #E84855;
+    margin-top: auto; }
+
 body {
   font-family: 'Staatliches', cursive !important; }
 
