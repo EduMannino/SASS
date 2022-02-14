@@ -137,6 +137,14 @@ section {
     border-color: #E84855;
     margin-top: auto; }
 
+form .form-control {
+  border: transparent;
+  border-radius: 0;
+  background-color: #ECF0F1; }
+
+form input {
+  height: 56px; }
+
 body {
   font-family: 'Staatliches', cursive !important; }
 

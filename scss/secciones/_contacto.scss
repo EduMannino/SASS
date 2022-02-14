@@ -1,0 +1,10 @@
+form{
+    .form-control{
+        border: transparent;
+        border-radius: 0;
+        background-color: $gris-claro;
+    }
+    input{
+        height: 56px;
+    }
+}
