@@ -1,0 +1,9 @@
+1. Al tratarse de una landing page se ubica el SEO en el index.html:
+  1.1 keywords utilizados: gaming, nosotros, comunidad, productos, noticias.
+  1.2 descripcion utillizada: En NeoGeek encontrarás Juegos, noticias, productos, análisis y una gran comunidad de usuarios sobre videojuegos.
+2. Etiquetas H6 utilizadas para los títulos de las secciones dentro de la página.
+3. Se usaron las siguientes etiquedas "alt" en las imagenes de las noticias:
+  1.1 noticia 1: "twitch"
+  1.2 noticia 2: "gamingshow"
+  1.3 noticia 3: "novedades"
+  1.4 noticia 4: "premios"
