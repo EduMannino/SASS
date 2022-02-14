@@ -3,22 +3,27 @@ nav{
     height: 6rem;
     width: 100%;
     padding-bottom: 80px;
-    label{
+    .lavelNav{
         color: #fff;
         font-size: 35px;
         line-height: 80px;
         padding: 0 20px;
         font-weight: bold;
     }
-    ul{
+    .logo{
+        color: #fff;
+        font-size: 40px;
+        margin: 10px 15px;
+    }
+    .ulNav{
        float: right;
        margin-right: 20px;
-       li{
+       .liNav{
            display: inline-block;
            line-height: 80px;
            margin: 0 5px;
        }
-       a{
+       .aNav{
            color: #fff;
            font-size: 17px;
            padding: 7px 13px;
@@ -47,11 +52,11 @@ nav{
 }
 
 @media (max-width: 952px){
-    label.logo{
+    .labelNav.logo{
         font-size: 30px;
         padding: 16px;
     }
-    nav ul li a{
+    nav .ulNav .liNav .aNav{
         font-size: 16px;
     }
 }
@@ -60,7 +65,7 @@ nav{
     .checkbtn{
         display: block;
     }
-    ul{
+    .ulNav{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -70,19 +75,19 @@ nav{
         text-align: center;
         transition: all .5s;
     }
-    nav ul li{
+    nav .ulNav .liNav{
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+    nav .ulNav .liNav .aNav{
         font-size: 20px;
     }
-    a:hover,a.active{
+    .aNav:hover,.aNav.active{
         background: none;
         color: #0082e6
     }
-    #check:checked ~ ul{
+    #check:checked ~ .ulNav{
         left: 0;
     }
 }
