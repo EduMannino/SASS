@@ -10,7 +10,6 @@ nav {
   background: #333232;
   height: 6rem;
   width: 100%;
-  position: fixed;
   padding-bottom: 80px; }
   nav label {
     color: #fff;
@@ -103,6 +102,31 @@ section {
   align-items: center;
   justify-content: center;
   font-size: 70px; }
+
+section {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+  section .card {
+    margin: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    background-clip: content-box;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.8);
+    transition: all 0.35s ease;
+    float: none; }
+    section .card:hover {
+      transform: translateY(5px);
+      overflow: hidden; }
+    section .card .content h2 {
+      color: #E84855; }
+    section .card .content a {
+      color: #5171A5; }
 
 body {
   font-family: 'Staatliches', cursive !important; }

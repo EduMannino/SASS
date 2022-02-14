@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card{
+        margin: 15px;
+        width: 200px;
+        height: 300px;
+        border-radius: 5px;
+        background: var(--i);
+        background-size: cover;
+        background-clip: content-box;
+        box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+        transition: all 0.35s ease;
+        float: none;
+        &:hover{
+            transform: translateY(5px);
+            overflow: hidden;
+        }
+        .content {
+           h2{
+               color: $rojo-pastel;
+           }
+           a{
+               color: $celeste-oscuro;
+           }
+        }
+    }
+}
+
+
+
+
+// <!-- SECCION NOTICIAS -->
+// <section id="Noticias" class="py-0">
+//   <div class="col-md-12 mx-auto text-center">
+//      <h6>NOTICIAS</h6>
+//   </div>
+// </section>
