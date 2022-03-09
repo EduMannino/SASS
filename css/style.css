@@ -82,12 +82,16 @@ nav {
     left: 0; } }
 
 section {
-  padding-top: 120px;
-  padding-bottom: 120px; }
-  section h6 {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  section h1 {
     font-size: 80px;
     padding-bottom: 50px;
     color: #E84855; }
+  section h3 {
+    font-size: 25px;
+    padding-bottom: 50px;
+    color: #333232; }
 
 .card-effect {
   padding: 25px;
